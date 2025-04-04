@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #5e0202;
+    color: white;
+    text-align: center;
+ }
+
+ .top-bar {
+   background-color: black;
+   font-size: 16px;
+   color: white;
+ }
+
+ header {
+    background-image: url(https://wallpaper.forfun.com/fetch/6f/6f5c51b9ca0179392c0acd837e0f78fb.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px;
+    font-size: 24px;
+    height: 780px;
+    text-align:left;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-left: 45px; 
+   }
+
+ header h1, header p {
+   letter-spacing: -1;
+ }
+
+ header h1{
+   margin-bottom: 5px;
+ }
+
+ header p{
+   margin-top: 0;
+ }
+ 
+ h1 span, p span {
+   color: #f00000;
+   font-weight: bold;
+ }
+ 
+ .novidades {
+   background-color: #5e0202;
+   border-top: 5px solid red;
+   margin-bottom: 20px;
+   padding-left: 40px;
+   padding-top: 40px;
+   padding-right: 40px;
+   padding-bottom: 40px;
+ }
+ 
+.borda {
+   border: 5px solid red;
+   padding: 50px;
+   background-color: #300000;
+}
+
+.novidades h2 span {
+   font-size: 45px;
+   margin-bottom: 10px;
+   color: white;
+   text-align: left;
+   display: flex;
+}  
+
+ .catalog {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+ 
+ .car img, .moto img, .aviao img, .jetski img, .helicoptero img {
+    width: 500px;
+    height: 300px;
+ }
+
+ .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;  
+    padding: 10px 
+ }
+
+ .botao {
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    border: 2px solid #b91111;
+    padding: 8px 12px;
+    font-size: 18px;
+    cursor: pointer;
+ } 
+
+ .car, .moto, .aviao, .helicoptero, .jetski {
+   border: 2px solid rgb(131, 131, 131);
+   margin-bottom: 20px;
+   margin-bottom: 45px;
+ }
